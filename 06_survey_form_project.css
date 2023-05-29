@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #443355;
+    color: #E1D9D1;
+    font-family: Comic Sans MS;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin: 1.0rem 0;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: 0;
+    padding: 1rem 0;
+    border-bottom: 2px solid #E1D9D1;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+.inline {
+    width: unset;
+    margin-right: 0.5em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+input,
+textarea {
+    background-color: #443355;
+    border: 1px solid #ffffff;
+    color: #E1D9D1;
+}
+
+input,
+textarea,
+select {
+    min-height: 2em;
+}
+
+input[type="submit"] {
+    width: 60px;
+    display: block;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #443355;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+#name, #email, #number, #dropdown{
+	font-size: 13px;
+}

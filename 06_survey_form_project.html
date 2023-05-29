@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Survey Form Project</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="06_survey_form_project.css">
+	</head>
+	<body>
+		<h1 id="title">Survey Form Project</h1>
+		<p id="description">Thanks for answering this survey</p>
+		<form id="survey-form" method="post">
+				<label id="name-label" for="name">Enter your name: <input id="name" type="text" required placeholder="Write your name"></input></label>
+        <label id="email-label" for="email">Enter your email: <input id="email" type="email" required placeholder="Write your email"></input></label>
+        <label id="number-label" for="number">Enter your Age: <input id="number" type="number" min="13" max="110" required placeholder="Select a number"></input></label>
+        <label for="dropdown">
+				Pizza or Hamburger?
+					<select id="dropdown" name="fs1-dropdown">
+						<option value="" id="dropdown" >(select one)</option>
+						<option value="1" id="dropdown">Pizza</option>
+						<option value="2" id="dropdown">Hamburger</option>
+					</select>
+				</label>
+			<fieldset>
+				<label for="cars">
+					<input type="radio" name="vehicle" id="cars" class="inline" value="1"></input>
+					 Cars
+				</label>
+				<label for="motorcycles">
+					<input type="radio" name="vehicle" id="motorcycles" class="inline" value="2"></input>
+					 Motorcycles
+				</label>
+			</fieldset>
+			<fieldset>
+				<label for="hobby_movies_series">
+					<input type="checkbox" id="hobby_movies_series" value="1" name="fs3-hobby_movies_series" class="inline"></input>
+					 Watch Series or Movies
+				</label>
+				<label for="hobby_sports">
+					<input type="checkbox" id="hobby_sports" value="2" name="fs3-hobby_sports" class="inline"></input>
+					 Practice Sports
+				</label>
+				<label for="hobby_coding">
+					<input type="checkbox" id="hobby_coding" value="3" name="fs3-hobby_coding" class="inline"></input>
+					 Coding
+				</label>
+				<label for="comments">
+				Have some comments:
+					<textarea id="comments" rows="2" cols="35" placeholder="I would like to share ..." name="fs3-comments"></textarea>
+				</label>
+			</fieldset>
+			<input type="submit" value="Submit" id="submit"></input>
+    </form>
+	</body>
+</html>
